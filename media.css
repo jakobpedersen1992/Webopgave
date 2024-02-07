@@ -1,0 +1,799 @@
+/* Tablet-stilarter (op til 1024px) */
+@media only screen and (min-width: 956px) and (max-width: 1024px) {
+    .section {
+        max-width: 1100px;
+        width: 100%;
+
+    }
+    
+
+    .navbar {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        gap: 2vh;
+    }
+
+    .logo {
+        margin-bottom: 1%;
+        width: 7%;
+        flex-shrink: 1;
+    }
+
+    .nav-link > a {
+        font-size: 0.75rem;
+        margin-bottom: 2%;
+    }
+
+    .btn-black,
+    .btn-white{
+        width: 12vw;
+        padding: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        transition: all 0.2s ease-in-out;        
+    }
+
+    .section1 {
+        height: 30vh;
+    }
+    
+    .container1 {
+        padding: 5%;
+    }
+
+    .container1 > p {
+        padding-bottom: 5%;
+
+    }
+
+    .container1 > h1,
+    .container2 > h1,
+    .three-right > h1,
+    .five-left > h1,
+    .six-left > h1 {
+        font-size: 30px;
+    }
+
+    .container1 > p,
+    .container2 > p,
+    .three-right > p,
+    .five-left > p,
+    .six-left > p {
+        font-size: 12px;
+    }
+
+
+    .three-left {
+        padding-left: 50px;
+    }
+
+    .section4 {
+        flex-direction: column;
+        margin-bottom: -170px;
+
+    }
+
+    .section4 .img1,
+    .section4 .img2,
+    .section4 .img3 {
+        width: 100%;
+        height: 50%;
+        font-size: 20px;
+    }
+
+ 
+    .five-left {
+        gap: 0.6vh;
+        max-width: 500px;
+        margin-left: 40px;
+    }
+
+    
+
+    .five-right > img {
+        height: 250px;
+        width: 250px;
+    }
+
+
+    .six-right input{
+    height: 2vh;
+    }
+
+
+
+    #besked {
+        height: 4vh
+    }
+
+    .grid-container{
+        padding: 2vw 5vw 2vw 12vw;
+        margin-bottom: 0px;
+        grid-template-rows: auto;
+        height: 40vh;
+        font-size: 10px;
+        
+    }
+
+    .social-logos img:nth-child(2) {
+        width: 12%  
+    }
+
+}
+
+/* mobil-stilarter (op til 950px) */
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+    .section {
+        max-width: 950px;
+        width: 100%;
+    
+    }
+
+    .nav-link > a {
+        font-size: 1rem;
+        margin-bottom: 2%;
+        
+    }
+
+    .logo {
+        margin-bottom: 1%;
+        width: 7%;
+        flex-shrink: 1;
+    }
+
+    #header > button,
+    .btn-white {
+        padding: 5px;
+        width: 80px;
+    }
+
+
+    .btn-black,
+    .btn-white{
+        width: 80px;
+        font-size: 7px;
+    }
+
+    
+    .container1 > h1,
+    .container2 > h1,
+    .three-right > h1,
+    .five-left > h1,
+    .six-left > h1 {
+        font-size: 20px;
+    }
+
+    .container1 > p,
+    .container2 > p,
+    .three-right > p,
+    .five-left > p,
+    .six-left > p {
+        font-size: 12px;
+    }
+
+
+    .section4 .img1,
+    .section4 .img2,
+    .section4 .img3 {
+        width: 100%;
+        height: 60%;
+        font-size: 30px;
+    }
+
+    .section4{
+        margin-bottom: -150px;
+    }
+
+    .section5{
+        margin-left: 5px;
+    }
+    
+    .grid-container{
+        grid-template-rows: auto;
+        height: 37vh;
+        font-size: 12px;
+    }
+    
+    .social-logos img:nth-child(2),
+    .social-logos img:nth-child(1),
+    .social-logos img:nth-child(3),
+    .social-logos img:nth-child(4){
+        width: 8%;
+    }   
+    
+}
+
+/* Tablet-stilarter (op til 768px) */
+@media only screen and (min-width: 570px) and (max-width: 768px) {
+    .section {
+        border: 1px solid;
+        max-width: 768px;
+        width: 100%;
+    
+    }
+
+    .nav-link > a {
+        font-size: 0.75rem;
+        margin-bottom: 2%;
+    }
+
+    .logo {
+        margin-bottom: 1%;
+        width: 7%;
+        flex-shrink: 1;
+    }
+
+    ul{
+        gap: 1vh;  
+    }
+
+    .nav-link ul li{
+        display: block;
+    }
+    
+
+    .nav-link > a{
+        font-size: 80%;
+     }
+
+    #header > button,
+    .btn-white {
+        padding: 5px;
+        width: 80px;
+    }
+
+
+    .btn-black,
+    .btn-white{
+        width: 80px;
+        font-size: 7px;
+    }
+
+
+
+    .container1 > h1,
+    .container2 > h1,
+    .three-right > h1,
+    .five-left > h1,
+    .six-left > h1 {
+        font-size: 20px;
+    }
+
+    .container1 > p,
+    .container2 > p,
+    .three-right > p,
+    .five-left > p,
+    .six-left > p {
+        font-size: 12px;
+    }
+
+
+
+
+    .three-right{
+        display: block;
+        gap: 0.5vh;
+    }
+
+    .three-left > img {
+        display: block;
+        width: 80%;
+    }
+
+
+    .section4{
+        font-size: 25px;
+    }
+
+    .section4 .img1,
+    .section4 .img2,
+    .section4 .img3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+
+    .five-left, .six-left{
+        position: relative;
+        left: 20px
+    }
+
+    .six-right input,
+    #besked {
+        margin-right: 10px;
+    }
+
+    .six-right button{
+        margin-right: 10px;
+
+    }
+
+    .grid-container {
+        height: 40vh;
+        font-size: 12px;
+        grid-template-rows: auto;
+
+    }
+
+
+    .social-logos > img {
+        width: 10%;
+    }
+
+    .social-logos img:nth-child(2) {
+        width: 10%;
+    }
+
+}
+
+/* Mobil-stilarter (op til 460) */
+@media only screen and (min-width: 380px) and (max-width: 570px) {
+    .section {
+        border: 1px solid;
+        max-width: 570px;
+        width: 100%; 
+    }
+
+    .nav-link > a {
+        font-size: 0.75rem;
+        margin-bottom: 2%;
+    }
+
+    .logo {
+        margin-bottom: 1%;
+        width: 7%;
+        flex-shrink: 1;
+    }
+
+    ul{
+        gap: 0.5vh;
+    }
+
+    .nav-link > a{
+        font-size: 60%;
+        padding: 1px
+     }
+
+
+     #header > button,
+     .btn-white {
+        padding: 5px;
+        width: 80px;
+    }
+   
+
+    .btn-black,
+    .btn-white{
+        padding: 2px;
+        font-size: 7px;
+        width: 100px;
+    }
+
+
+
+    .container1 > h1,
+    .container2 > h1,
+    .three-right > h1,
+    .five-left > h1,
+    .six-left > h1 {
+        font-size: 20px;
+    }
+
+    .container1 > p,
+    .container2 > p,
+    .three-right > p,
+    .five-left > p,
+    .six-left > p {
+        font-size: 12px;
+    }
+
+     
+    .section1 {
+        height: 30vh;
+        padding: 3%;
+    }
+
+
+    .three-left > img {
+        display: block;
+        width: 100%;
+    }
+
+    .three-left {
+        padding-left: 10px;
+        width: 100%;
+    }
+    
+    .three-right{
+        display: block;
+        gap: 0.5vh;
+        margin-left: 5px
+    }
+
+    .three-right > h1 {
+        font-size: 1rem; 
+    }
+    
+
+
+    .section4 .img1,
+    .section4 .img2,
+    .section4 .img3 {
+        width: 100%;
+        height: 50%;
+        font-size: 20px;
+    }
+
+    .section4 {
+        margin-bottom: -200px;
+        margin-right: -5px;
+    }
+
+
+    .five-left {
+    display: block;
+    font-size: 9px;
+    gap: 0.5vh;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    }
+
+    .five-right > img {
+        display: block;
+        width: 85%;
+        margin-left: 30px;
+    }
+
+
+    .six-left{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+    .six-right input {
+        width: 40vw;
+        height: 2vh;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    #besked {
+        height: 4vh;
+        font-size: 8px;
+    }
+
+    .grid-container{
+        font-size: 12px;
+        margin-bottom: 2px;
+        padding: 1vw 2vw 0 2vw;
+        gap: 15px;
+        grid-template-rows: auto;
+    }
+
+
+    .social-logos > img {
+        width: 10%;
+    }
+
+    .social-logos img:nth-child(2) {
+        width: 10%;
+    }
+
+}
+
+/* mobil-stilarter (op til 380px) */
+@media only screen and (min-width: 280px) and (max-width: 380px) {
+    .section {
+        max-width: 380px;
+        width: 100%; 
+    }
+
+    .logo {
+        margin-bottom: 1%;
+        width: 7%;
+        flex-shrink: 1;
+        left: 0;
+    }
+
+    ul{
+        gap: 0.5vh;
+    }
+
+    .nav-link > a{
+        font-size: 30%;
+        padding: 1px
+     }
+
+  
+
+
+     #header > button,
+    .btn-white {
+        padding: 5px;
+    }
+
+
+    .btn-black,
+    .btn-white{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 80px;
+        font-size: 5px;
+    }
+
+
+    .container1 > h1,
+    .container2 > h1,
+    .three-right > h1,
+    .five-left > h1,
+    .six-left > h1 {
+        font-size: 16px;
+    }
+
+    .container1 > p,
+    .container2 > p,
+    .three-right > p,
+    .five-left > p,
+    .six-left > p {
+        font-size: 8px;
+    }
+
+    .three-right > p {
+        margin-bottom: -5px;
+    }
+     
+    .section1 {
+        height: 30vh;
+        padding: 3%;
+    }
+
+
+    .three-left > img {
+        display: block;
+        width: 100%;
+    }
+
+    .three-left {
+        padding-left: 10px;
+        width: 100%;
+    }
+    
+    .three-right{
+        display: block;
+        gap: 0.5vh;
+        margin-left: 5px
+    }
+
+    .three-right > h1 {
+        font-size: 1rem; 
+    }
+    
+
+    .section4 .img1,
+    .section4 .img2,
+    .section4 .img3 {
+        width: 100%;
+        height: 50%;
+        font-size: 20px;
+    }
+
+    .section4 {
+        margin-bottom: -200px;
+        margin-right: -5px;
+    }
+
+
+    .five-left {
+    display: block;
+    font-size: 9px;
+    gap: 0.5vh;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    }
+
+    .five-right > img {
+        display: block;
+        width: 85%;
+        margin-left: 30px;
+    }
+
+
+    .six-left{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+    .six-right input {
+        width: 40vw;
+        height: 2vh;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    #besked {
+        height: 4vh;
+        font-size: 8px;
+    }
+
+    .grid-container{
+        font-size: 8px;
+        margin-bottom: 2px;
+        padding: 1vw 2vw 0 2vw;
+        gap: 15px;
+        height: 30vh;
+        grid-template-rows: auto;
+    }
+
+
+    .social-logos > img {
+        width: 10%;
+    }
+
+    .social-logos img:nth-child(2) {
+        width: 10%;
+    }
+
+    
+}
+
+/* mobil-stilarter (op til 280px) */
+@media only screen and (min-width: 200px) and (max-width: 280px) {
+    .section {
+        max-width: 280px;
+        width: 100%; 
+    }
+
+    .logo {
+        margin-bottom: 1%;
+        width: 7%;
+        flex-shrink: 1;
+        left: 0;
+    }
+
+    ul{
+        gap: 0.5vh;
+    }
+
+    .nav-link > a{
+        font-size: 30%;
+        padding: 1px
+     }
+
+  
+     #header > button,
+    .btn-white {
+        padding: 5px;
+    }
+
+
+    .btn-black,
+    .btn-white{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 80px;
+        font-size: 5px;
+    }
+
+
+    .container1 > h1,
+    .container2 > h1,
+    .three-right > h1,
+    .five-left > h1,
+    .six-left > h1 {
+        font-size: 12px;
+    }
+
+    .container1 > p,
+    .container2 > p,
+    .three-right > p,
+    .five-left > p,
+    .six-left > p {
+        font-size: 8px;
+    }
+
+     
+    .section1 {
+        height: 30vh;
+        padding: 3%;
+    }
+
+
+    .three-left > img {
+        display: block;
+        width: 100%;
+    }
+
+    .three-left {
+        padding-left: 10px;
+        width: 100%;
+    }
+    
+    .three-right{
+        display: block;
+        gap: 0.5vh;
+        margin-left: 5px
+    }
+
+    .three-right > p {
+        margin-bottom: -5px;
+    }
+
+    .section4 .img1,
+    .section4 .img2,
+    .section4 .img3 {
+        width: 100%;
+        height: 30%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section4 {
+        margin-right: -5px;
+        margin-bottom: -260px;
+    }
+
+ 
+    
+    .five-right > img {
+        display: block;
+        width: 80%;
+        position: relative;
+        right: -30px;
+        margin-left: 15px;
+    }
+    
+    
+    .five-left{
+        display: block;
+        gap: 0.5vh;
+        margin-left: 5px;
+    }
+
+
+    .six-left{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+
+
+
+    .six-right input {
+        width: 40vw;
+        height: 2vh;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    #besked {
+        height: 4vh;
+        font-size: 8px;
+    }
+
+    .grid-container{
+        font-size: 5px;
+        margin-bottom: 2px;
+        padding: 1vw 2vw 0 2vw;
+        gap: 15px;
+        height: 20vh;
+        grid-template-rows: auto;
+    }
+
+
+    .social-logos > img {
+        width: 10%;
+    }
+
+    .social-logos img:nth-child(2) {
+        width: 10%;
+    }
+
+
+}
+
+
